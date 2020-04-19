@@ -1,11 +1,7 @@
-.navbar {
-    background-color: #a0cdec;
-    width: 100%;
-}
-
 form {
     margin: 10px;
     padding: 5px;
     border:10px gray;
     float:left;
+    align-self: left;
 }

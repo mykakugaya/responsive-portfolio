@@ -1,0 +1,26 @@
+.full-name {
+    background-color:#a0cdec;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(206, 205, 205);
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-style: unset;
+    float: right;
+    position: relative;
+}
+
+
+.footer {
+    background-color: gray;
+    text-align: center;
+}
