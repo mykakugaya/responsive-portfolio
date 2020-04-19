@@ -1,7 +1,37 @@
-form {
-    margin: 10px;
-    padding: 5px;
-    border:10px gray;
-    float:left;
+#contact-form {
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: left;
+    background-color: white;
+    border: 3px solid rgb(226, 226, 226);
     align-self: left;
+    position: relative;
+    min-width: 340px;
+}
+
+#contact-form h1 {
+    padding: 10px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    width: 100%;
+    color: rgb(102, 102, 102);
+}
+
+#contact-form form {
+    width: 100%;
+}
+
+#button {
+    background-color: #16858d;
+    border-color: #16858d;
+}
+
+#button:hover {
+    background-color: #34b5b9;
+}
+
+@media screen and (max-width: 768px) {
+
 }
