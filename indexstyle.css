@@ -8,8 +8,7 @@
     background-color: white;
     border: 3px solid rgb(226, 226, 226);
     align-self: left;
-    position: relative;
-    min-width: 350px;
+    min-width: 650px;
 }
 
 #about-me h1 {
@@ -25,27 +24,40 @@
     justify-content: center;
 }
 
-#img {
-    justify-content: center;
-    float: left;
-}
 
-#img img {
+#info img {
     max-height: 200px;
-    margin-bottom: 20px;
-    height: 100%;
+    margin-bottom: 10px;
+    margin-right: 20px;
     float: left;
-    position: relative;
 }
 
-#paragraph p {
-    float: left;
+#info p {
     position: relative;
     margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    #paragraph p {
+    #about-me {
+        min-width: 200px;
+        margin: 20px;
+        justify-content: center;
+    }
+
+    #info {
+        justify-content: center;
+    }
+
+    #info img {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #info p {
         margin: 0;
+        float: left;
     }
 }
