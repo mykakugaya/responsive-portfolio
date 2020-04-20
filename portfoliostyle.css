@@ -9,7 +9,7 @@
     border: 3px solid rgb(226, 226, 226);
     align-self: left;
     position: relative;
-    min-width: 350px;
+    min-width: 300px;
 }
 
 #portfolio h1 {
@@ -24,22 +24,25 @@
     padding: 10px;
     text-align: center;
     position: relative;
+    margin-bottom: 20px;
 }
 
 #box img {
     z-index: 1;
     display: inline-block;
+    width: 250px;
 }
 
 #tag {
     background-color: #16858d;
     height: 50px;
     padding: 10px;
-    width: 200px;
     position: absolute;
     z-index: 2;
     display: inline-block;
     bottom: 25px;
+    width: 250px;
+    max-width: 91%;
 }
 
 #tag h2 {
@@ -48,15 +51,20 @@
     text-align: center;
 }
 
-
-
 @media screen and (max-width: 768px) {
     #box {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         width: 100%;
+        padding: 0;
     }
 
     #box img {
-        height: 100%;
+        width: 100%;
+        max-width: none;
+    }
+
+    #tag {
+        width: 100%;
+        max-width: none;
     }
 }

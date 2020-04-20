@@ -36,8 +36,9 @@ body {
     background-color: white;
     z-index: 1;
     height: 70px;
-    float: left;
+    float: right;
     position: relative;
+    justify-content: right;
 }
 
 #navbar nav {
@@ -80,6 +81,7 @@ body {
 #footer p {
     text-align: center;
 }
+
 
 @media screen and (max-width: 768px) {
     #full-name {
