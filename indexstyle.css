@@ -1,3 +1,42 @@
-@media screen and (max-width: 768px) {
+#about-me {
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: left;
+    background-color: white;
+    border: 3px solid rgb(226, 226, 226);
+    align-self: left;
+    position: relative;
+    min-width: 350px;
+}
 
+#about-me h1 {
+    padding: 10px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    width: 100%;
+    color: rgb(102, 102, 102);
+}
+
+#info {
+    float: left;
+}
+
+#info div img {
+    max-height: 200px;
+    position: absolute;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#info div p {
+    position: relative;
+    overflow-wrap: normal;
+}
+
+@media screen and (max-width: 768px) {
+    #info {
+        justify-items: center;
+    }
 }
