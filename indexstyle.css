@@ -23,14 +23,14 @@
     float: left;
 }
 
-#info div img {
+#info img {
     max-height: 200px;
     position: absolute;
     margin-bottom: 10px;
     justify-content: center;
 }
 
-#info div p {
+#info p {
     position: relative;
     overflow-wrap: normal;
 }

@@ -90,8 +90,8 @@ body {
     }
 
     #navbar nav {
-        justify-self: center;
-        margin: 0;
-        float: left;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
     }
 }
